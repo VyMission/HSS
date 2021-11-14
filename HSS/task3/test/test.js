@@ -11,7 +11,7 @@ async function testReg(){
     const page = await browser.newPage();
 
     console.log('Переход на страницу калькулятора');
-    await page.goto('file:///C:/task3/calc/index.html', { waitUntil: 'networkidle0' }); 
+    await page.goto('https://github.com/VyMission/HSS/blob/main/HSS/task3/calc/index.html', { waitUntil: 'networkidle0' }); 
 	
 	console.log('         ');
 	
